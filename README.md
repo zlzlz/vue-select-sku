@@ -1,6 +1,6 @@
 # vue-select-sku
 
-> y
+> 自定义选择生成商品SKU
 
 ## Build Setup
 
