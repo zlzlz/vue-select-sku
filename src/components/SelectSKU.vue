@@ -53,13 +53,13 @@
             <el-row :gutter="24">
               <el-col :span="12">
                 <el-button type="primary" @click="addGoodsAttr(true)">全部生成</el-button>
-                <el-button type="warning" @click="clear">清空所有</el-button>
+                <el-button type="danger" @click="clear">清空所有</el-button>
               </el-col>
               <el-col :span="12" v-if="isSetListShow">
-                <el-tag type="success" @click="openBatch('marketPrice')">批量设置市场价</el-tag>
-                <el-tag type="success" @click="openBatch('cost')">批量设置进价</el-tag>
-                <el-tag type="success" @click="openBatch('salePrice')">批量设置售价</el-tag>
-                <el-tag type="success" @click="openBatch('stockPattern')">批量设置库存比</el-tag>
+                <el-tag type="warning" @click="openBatch('marketPrice')">批量设置市场价</el-tag>
+                <el-tag type="warning" @click="openBatch('cost')">批量设置进价</el-tag>
+                <el-tag type="warning" @click="openBatch('salePrice')">批量设置售价</el-tag>
+                <el-tag type="warning" @click="openBatch('stockPattern')">批量设置库存比</el-tag>
               </el-col>
               <div  v-else>
                 <el-col :span="4">
