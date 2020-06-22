@@ -2,6 +2,9 @@
 
 > 自定义选择生成商品SKU
 
+# Demo
+[在线演示](https://zlzlz.github.io/vue-select-sku-demo/)
+
 ## Build Setup
 
 ``` bash
